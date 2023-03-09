@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #__next {
+    @apply h-full;
+  }
+
+  input {
+    @apply border-2 border-gray-500;
+  }
+
+  form {
+    @apply flex flex-col;
+  }
+}
